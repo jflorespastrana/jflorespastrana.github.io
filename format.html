@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Coparing Images - JAFP - Format</title>
+    <style>
+      h1 {
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+      }
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .rows {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      #table {
+        display: flex;
+        justify-content: center;
+      }
+      table {
+        margin-top: 20px;
+        border-collapse: collapse;
+        font-size: 1.5em;
+      }
+      table tr td {
+        border: black 2px solid;
+        padding: 10px;
+      }
+      #links {
+        display: flex;
+        justify-content: center;
+      }
+      #links a {
+        margin: 20px;
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Format</h1>
+    <div id="container">
+      <div class="rows">
+        <img
+          alt="Source: https://unsplash.com/photos/1sUFlGWFaCw"
+          src="./images/webp/forest.webp"
+          srcset="./images/jpg/forest.jpg 1000w, ./images/jpg/forest.jpg 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+        <img
+          alt="Source: https://unsplash.com/photos/HdbgIuslzK4"
+          src="./images/webp/snow.webp"
+          srcset="./images/jpg/snow.jpg 1000w, ./images/jpg/snow.jpg 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+      </div>
+
+      <div class="rows">
+        <img
+          alt="Source: https://unsplash.com/photos/a1BlhTu0lMI"
+          src="./images/webp/moon.webp"
+          srcset="./images/jpg/moon.jpg 1000w, ./images/jpg/moon.jpg 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+        <img
+          alt="Source: https://unsplash.com/photos/_vlLGaVvLQM"
+          src="./images/webp/sun.webp"
+          srcset="./images/jpg/sun.jpg 1000w, ./images/jpg/sun.jpg 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+      </div>
+
+      <div class="rows">
+        <img
+          alt="Source: https://www.cleanpng.com/png-portable-network-graphics-monkey-baboons-mandrill-6373312/"
+          src="./images/webp/baboon.webp"
+          srcset="./images/png/baboon.png 1000w, ./images/png/baboon.png 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+        <img
+          alt="Source: https://www.cleanpng.com/png-monkey-chimpanzee-ape-monkey-77662/"
+          src="./images/webp/chimp.webp"
+          srcset="./images/png/chimp.png 1000w, ./images/png/chimp.png 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+      </div>
+
+      <div class="rows">
+        <img
+          alt="Source: https://www.cleanpng.com/png-gorilla-png-44629/"
+          src="./images/webp/gorila.webp"
+          srcset="./images/png/gorila.png 1000w, ./images/png/gorila.png 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+        <img
+          alt="Source: https://www.cleanpng.com/png-pileated-gibbon-gorilla-primate-orangutan-chimpanz-498473/"
+          src="./images/webp/monke.webp"
+          srcset="./images/png/monke.png 1000w, ./images/png/monke.png 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+      </div>
+
+      <div class="rows">
+        <img
+          alt="Source: https://giphy.com/gifs/fav-mr-bean-1997-m9NSQjJEPv5AY"
+          src="./images/webp/bean.webp"
+          srcset="./images/gif/bean.gif 1000w, ./images/gif/bean.gif 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+        <img
+          alt="Source: https://giphy.com/gifs/jOpLbiGmHR9S0"
+          src="./images/webp/scott.webp"
+          srcset="./images/gif/scott.gif 1000w, ./images/gif/scott.gif 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+      </div>
+
+      <div class="rows">
+        <img
+          alt="Source: https://tenor.com/es/ver/ali-g-sacha-baron-cohen-gif-11789782"
+          src="./images/webp/alig.webp"
+          srcset="./images/gif/alig.gif 1000w, ./images/gif/alig.gif 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+        <img
+          alt="Source: https://tenor.com/es/ver/how-i-met-your-mother-barney-barney-stinson-seppuku-gif-3563661"
+          src="./images/webp/barney.webp"
+          srcset="./images/gif/barney.gif 1000w, ./images/gif/barney.gif 1500w"
+          sizes="(min-width: 650px) 50vw, 100vw"
+        />
+      </div>
+    </div>
+    <div id="table">
+      <table class="table">
+        <tr>
+          <td>First Contentful Paint</td>
+          <td style="color: rgb(14, 238, 14)">0,3 s</td>
+        </tr>
+        <tr>
+          <td>Time to Interactive</td>
+          <td style="color: rgb(14, 238, 14)">0,6 s</td>
+        </tr>
+        <tr>
+          <td>Speed Index</td>
+          <td style="color: rgb(14, 238, 14)">0,6 s</td>
+        </tr>
+        <tr>
+          <td>Total Blocking Time</td>
+          <td style="color: rgb(238, 141, 14)">200 ms</td>
+        </tr>
+        <tr>
+          <td>Cumulative Layout Shift</td>
+          <td style="color: rgb(224, 22, 22)">2,3 s</td>
+        </tr>
+        <tr>
+          <td>Rendering of the largest element with content</td>
+          <td style="color: rgb(224, 22, 22)">1,866</td>
+        </tr>
+        <tr>
+          <td>Overall Size</td>
+          <td style="color: rgb(224, 22, 22)">21.044 KiB</td>
+        </tr>
+      </table>
+    </div>
+    <h1>Other websites:</h1>
+    <div id="links">
+      <a href="./index.html">Go to Original</a>
+      <a href="./size.html">Go to Size</a>
+    </div>
+  </body>
+</html>
