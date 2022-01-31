@@ -1,3 +1,3 @@
 # Practice Comparing Images - JAFP
 
-https://jflorespastrana.github.io/
+WebPage: https://jflorespastrana.github.io/
