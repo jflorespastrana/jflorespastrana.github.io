@@ -1,3 +1,3 @@
-# Practice Comparing Images - JAFP
+# Tutorial React - JAFP
 
 WebPage: https://jflorespastrana.github.io/
